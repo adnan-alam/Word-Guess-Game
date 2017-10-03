@@ -52,8 +52,10 @@ class WordGuess:
             print("{} --> {}".format(hints[1][i],hints[0][i]))
             print()
             time.sleep(2)
+	
         
-	# takes user input and checks if it matches with word_to_guess	
+    # takes user input and checks if it matches with word_to_guess
+
     @property   
     def userInput(self):
         word_to_guess = self.wordToGuess()
