@@ -1,4 +1,4 @@
-from random import choice
+import random
 import time
 
 
@@ -32,7 +32,7 @@ class WordGuess:
     # returns a randomly choosen word from word list
     def get_word(self):
         
-        word_to_guess = choice(self.get_word_list())
+        word_to_guess = random.choice(self.get_word_list())
         return word_to_guess
     
     # gives hints to user about the word to be guessed	
